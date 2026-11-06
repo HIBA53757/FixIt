@@ -1,10 +1,12 @@
-function App() {
-  return (
+import RepairList from "./components/RepairList"
+
+function App(){
+  return(
     <div>
       <h1>FixIt</h1>
-      <p>Repair management application</p>
+      <RepairList/>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App ;
